@@ -3,3 +3,16 @@
 @import url(typography.module.css);
 @import url(theme.light.css) (prefers-color-scheme: light);
 @import url(theme.dark.css) (prefers-color-scheme: dark);
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+ul{
+    list-style-type :none;
+}
