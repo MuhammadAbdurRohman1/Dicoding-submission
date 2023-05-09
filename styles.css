@@ -60,7 +60,6 @@ article {
 }
 
 aside {
-    height: auto;
     padding: 10px;
     border-radius: 10px;
     background-color: beige;
@@ -79,11 +78,11 @@ aside li {
 
 footer{
     display: block;
-    border-color: black;
+    background-color: black;
     color: azure;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     main {
       flex-flow: column nowrap;
     }
