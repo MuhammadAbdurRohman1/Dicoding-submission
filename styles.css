@@ -24,6 +24,7 @@ header {
 nav>ul {
     list-style-type: none;
     display: flex;
+    gap: 5px;
 }
 
 .btn {
@@ -31,4 +32,6 @@ nav>ul {
     border-radius: 15px ;
     background-color: lavender;
     color: black ;
+    padding: 10px;
+    text-decoration: none;
 }
