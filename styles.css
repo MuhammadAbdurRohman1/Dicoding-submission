@@ -19,13 +19,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: ;
+    background-color: black;
+    color: white;
+    padding: auto 20;
 }
 
 nav>ul {
     list-style-type: none;
     display: inline-flex;
-    gap: 5px;
+    gap: 8px;
 }
 
 .btn {
@@ -35,4 +37,16 @@ nav>ul {
     color: black ;
     padding: 5px 10px;
     text-decoration: none;
+}
+
+main{
+    display: flex;
+    padding: 20px;
+}
+
+aside{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:beige ;
+    box-shadow: beige;
 }
