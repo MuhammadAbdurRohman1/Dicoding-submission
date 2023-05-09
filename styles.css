@@ -1,27 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-html{
-    padding :0 ;
-    margin :0;
+html {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 
-body{
-    background-color: burlywood;
-    color: darksalmon;
+body {
+    background-color: lavenderblush;
+    color: black;
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     border-bottom: 1px solid white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav > ul {
+nav>ul {
     list-style-type: none;
     display: flex;
+}
+
+.btn {
+    border: none;
+    border-radius: 15px ;
+    background-color: lavender;
+    color: black ;
 }
