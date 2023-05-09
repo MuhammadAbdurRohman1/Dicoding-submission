@@ -77,22 +77,18 @@ aside li {
 }
 
 footer{
+    position: absolute;
     display: block;
     background-color: black;
     color: azure;
 }
-
-@media screen and (max-width: 1000px) {
-    main {
-      flex-flow: column nowrap;
-    }
-  
-    aside {
-      align-self: center;
-    }
-  }
   
   @media screen and (max-width: 768px) {
+
+    main {
+        flex-flow: column nowrap;
+      }
+    
     nav ul {
       justify-content: center;
     }
