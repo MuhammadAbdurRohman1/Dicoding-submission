@@ -21,7 +21,7 @@ header {
     align-items: center;
     background-color: black;
     color: white;
-    padding: auto 20;
+    padding: auto 20px;
 }
 
 nav>ul {
@@ -32,21 +32,37 @@ nav>ul {
 
 .btn {
     border: none;
-    border-radius: 15px ;
+    border-radius: 15px;
     background-color: lavender;
-    color: black ;
+    color: black;
     padding: 5px 10px;
     text-decoration: none;
 }
 
-main{
+main {
     display: flex;
+    gap: 20px;
     padding: 20px;
 }
 
-aside{
+#content {
+    flex: 5;
+    gap: 20px;
+}
+
+article {
+    border-radius: 15px;
+    background-color: indianred;
+}
+
+aside {
     padding: 10px;
     border-radius: 10px;
-    background-color:beige ;
-    box-shadow: beige;
+    background-color: beige;
+    box-shadow: 5px lightcoral;
+    flex: 1;
+}
+
+aside li {
+    text-decoration: none;
 }
