@@ -48,21 +48,55 @@ main {
 #content {
     flex: 5;
     gap: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 article {
+    padding: 10px;
     border-radius: 15px;
     background-color: indianred;
 }
 
 aside {
+    height: auto;
     padding: 10px;
     border-radius: 10px;
     background-color: beige;
-    box-shadow: 5px lightcoral;
+    box-shadow: 5px  5 px lightcoral;
     flex: 1;
+
+}
+
+aside ul {
+    list-style-type: none;
 }
 
 aside li {
     text-decoration: none;
 }
+
+footer{
+    border-color: darkseagreen;
+    color: azure;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+      flex-flow: column nowrap;
+    }
+  
+    aside {
+      align-self: center;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav ul {
+      justify-content: center;
+    }
+  
+     aside {
+      align-self: stretch;
+    }
+  }
