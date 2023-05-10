@@ -12,6 +12,7 @@ body {
     background-color: lavenderblush;
     color: black;
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
 }
 
 header {
@@ -49,7 +50,7 @@ main {
     flex: 5;
     gap: 20px;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     flex-wrap: nowrap;
 }
 
@@ -60,17 +61,17 @@ article {
 }
 
 aside {
-    max-height: max-content;
+    max-height: fit-content;
     padding: 10px;
     border-radius: 10px;
     background-color: beige;
     box-shadow: 0 2px 8px 2px bisque;
     flex: 1;
-text-align: left;
+    text-align: left;
 }
 
 aside ul {
-    padding: 0; 
+    padding: 0;
     list-style-type: none;
 }
 
@@ -78,7 +79,7 @@ aside li {
     text-decoration: none;
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -87,18 +88,18 @@ footer{
     background-color: black;
     color: azure;
 }
-  
-  @media screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
 
     main {
         flex-flow: column nowrap;
-      }
-    
+    }
+
     nav ul {
-      justify-content: center;
+        justify-content: center;
     }
-  
-     aside {
-      align-self: stretch;
+
+    aside {
+        align-self: stretch;
     }
-  }
+}
