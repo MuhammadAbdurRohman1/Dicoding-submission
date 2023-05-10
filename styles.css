@@ -62,14 +62,16 @@ article {
     background-color: indianred;
 }
 
-aside {
+aside{
+flex: 1;
+box-shadow: 0 2px 8px 2px bisque;
+text-align: left;
+border-radius: 10px;
+background-color: beige;
+}
+#about {
     max-height: fit-content;
     padding: 10px;
-    border-radius: 10px;
-    background-color: beige;
-    box-shadow: 0 2px 8px 2px bisque;
-    flex: 1;
-    text-align: left;
 }
 
 aside ul {
