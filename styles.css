@@ -63,6 +63,7 @@ article {
 }
 
 aside{
+    max-height: fit-content;
 flex: 1;
 box-shadow: 0 2px 8px 2px bisque;
 text-align: left;
@@ -70,7 +71,6 @@ border-radius: 10px;
 background-color: beige;
 }
 #about {
-    max-height: fit-content;
     padding: 10px;
 }
 
