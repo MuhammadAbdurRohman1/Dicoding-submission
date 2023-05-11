@@ -9,6 +9,7 @@ html {
 body {
     padding: 0;
     margin: 0;
+    min-height: 100vh;
     background-color: lavenderblush;
     color: black;
     font-family: 'Roboto', sans-serif;
@@ -84,9 +85,8 @@ aside li {
 footer {
     position: sticky;
     top: 100%;
-    width: 100%;
+    width: 100vw;
     height: 30px;
-    margin-top: -30px;
     text-align: center;
     padding: 10px;
     background-color: black;
