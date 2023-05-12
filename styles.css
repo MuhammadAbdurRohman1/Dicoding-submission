@@ -68,22 +68,23 @@ aside {
     min-width: 13rem;
     border-radius: 10px;
     padding: 0.5rem;
-    background-color:#D0BCFF;
+    background-color: #D0BCFF;
     text-align: left;
     color: #381E72;
 }
 
-#about ,#contact{
+#about,
+#contact {
     margin: 0.5rem;
     font-weight: 700;
-    padding:  0 13px;
-    background-color:#EADDFF;
-   border-radius: 18px; 
-   color:#4F378B ;
+    padding: 0 13px;
+    background-color: #EADDFF;
+    border-radius: 18px;
+    color: #4F378B;
 }
 
 
-i{
+i {
     margin: 1rem;
     scale: 2;
 }
@@ -94,18 +95,18 @@ aside ul {
 }
 
 aside li {
+    text-transform: capitalize;
     text-decoration: none;
-   margin:0 0 10px 0; 
+    margin: 0 0 10px 0;
 }
 
-aside h2{
+aside h2 {
     margin-left: 1rem;
 }
 
 footer {
     position: sticky;
     top: 100%;
-    width: 100vw;
     height: 30px;
     text-align: center;
     padding: 10px;
