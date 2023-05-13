@@ -69,9 +69,9 @@ aside {
     min-width: 13rem;
     border-radius: 10px;
     padding: 0.5rem;
-    background-color: #4F378B;
+    background-color: #4A4458;
     text-align: left;
-    color: #EADDFF;
+    color: #E8DEF8;
 }
 
 #about,
@@ -79,9 +79,9 @@ aside {
     margin: 0.5rem;
     font-weight: 700;
     padding: 0 13px;
-    background-color: #4A4458;
+    background-color: #4F378B;
     border-radius: 18px;
-    color: #E8DEF8;
+    color: #eaddff;
 }
 
 
