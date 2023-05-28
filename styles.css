@@ -25,6 +25,10 @@ header {
     padding: 0 20px;
 }
 
+#hamburger{
+    display: none;
+}
+
 nav>ul {
     list-style-type: none;
     display: inline-flex;
@@ -70,8 +74,12 @@ aside {
     border-radius: 10px;
     padding: 0.5rem;
     background-color: #4A4458;
-    text-align: left;
+    text-align: center;
     color: #E8DEF8;
+}
+
+#contact{
+    
 }
 
 
@@ -122,7 +130,17 @@ footer {
 
 @media screen and (max-width: 480px){
 
-    
+    #hamburger{
+        display: initial;
+        padding: 10px;
+        border: 1px #938F99  solid ;
+        background: 15px;
+    }
+
+    #hamburger i{
+        scale: 1.2;
+        color: #D0BCFF;
+    }
     .wrapper{
         left: -100%;
         position: fixed;
