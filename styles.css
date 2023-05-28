@@ -134,7 +134,7 @@ footer {
         display: initial;
         padding: 10px;
         border: 1px #938F99  solid ;
-        background: 15px;
+        border-radius: 15px;
     }
 
     #hamburger i{
