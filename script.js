@@ -1,3 +1,4 @@
+var body = document.querySelector("body");
 var nav = document.getElementById("nav");
 var hamb = document.getElementById("hamburger") ;
 
