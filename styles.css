@@ -11,7 +11,7 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: #1c1b1f;
-  color: black;
+  color: #d0bcff;
   font-family: "Roboto", sans-serif;
 }
 
@@ -22,7 +22,6 @@ header {
   align-items: center;
   color: #d0bcff;
   padding: 0 20px;
-  z-index: 444;
 }
 
 #hamburger {
@@ -137,12 +136,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  header {
-    position: sticky;
-    background-color: #1c1b1f;
-    border-bottom: #d0bcff;
-    top: 0;
-  }
+
   main {
     flex-flow: column nowrap;
   }
@@ -158,17 +152,11 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  header {
-    position: sticky;
-    background-color: #1c1b1f;
-    border-bottom: #d0bcff;
-    top: 0;
-  }
-
   #hamburger {
     display: initial;
     border: 1px #938f99 solid;
     border-radius: 13px;
+    padding: 5px;
   }
 
   #hamburger i {
@@ -180,7 +168,7 @@ footer {
     border-radius: 20px 0 0 20px;
     top: 0;
     right: -100vh;
-    height: 100vh;
+    height: 99vh;
     width: 60vw;
     position: fixed;
     padding: 30px 0;
