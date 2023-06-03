@@ -178,7 +178,7 @@ footer {
     position: fixed;
     padding: 30px 0;
     z-index: 999;
-    transition: ease-in-out 300ms;
+    transition: ease-in-out 600ms 0s;
   }
 
   nav a:hover{box-shadow: none;
