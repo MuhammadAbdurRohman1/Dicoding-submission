@@ -136,6 +136,12 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    position: sticky;
+    background-color: #1c1b1f;
+    border-bottom: #d0bcff;
+    top: 0;
+  }
   main {
     flex-flow: column nowrap;
   }
@@ -146,6 +152,7 @@ footer {
 
   aside {
     align-self: stretch;
+    height: fit-content;
   }
 }
 
@@ -153,11 +160,10 @@ footer {
   header {
     position: sticky;
     background-color: #1c1b1f;
+    border-bottom: #d0bcff;
     top: 0;
   }
-header h2{
-    max-width: 8rem;
-}
+
   #hamburger {
     display: initial;
     border: 1px #938f99 solid;
