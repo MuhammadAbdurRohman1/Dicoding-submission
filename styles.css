@@ -11,7 +11,7 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: #1c1b1f;
-  color: #d0bcff;
+  color: #1c1b1f;
   font-family: "Roboto", sans-serif;
 }
 
@@ -166,12 +166,13 @@ footer {
   nav {
     background-color: #34323a;
     border-radius: 20px 0 0 20px;
-    top: 0;
+    top: 3vh;
     right: -100vh;
-    height: 99vh;
+    height: 94vh;
     width: 60vw;
     position: fixed;
     padding: 30px 0;
+    z-index: 999;
     transition: ease-in-out 300ms;
   }
 
