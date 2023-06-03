@@ -23,6 +23,7 @@ header {
     align-items: center;
     color: #D0BCFF;
     padding: 0 20px;
+z-index: 444;
 }
 
 #hamburger {
@@ -34,7 +35,10 @@ nav>ul {
     display: inline-flex;
     gap: 8px;
 }
+nav i{
 
+    display: none;
+}
 nav li a {
     border: none;
     border-radius: 15px;
@@ -78,7 +82,10 @@ aside {
     color: #E8DEF8;
 }
 
-
+nav> i{
+    display: none !important;
+    color: #d0bcff
+}
 
 i {
     margin: 1rem;
@@ -131,6 +138,12 @@ footer {
 
 @media screen and (max-width: 480px) {
 
+    header{
+        position: sticky;
+        background-color: #1C1B1F;
+        top: 0;
+    }
+
     #hamburger {
         display: initial;
         border: 1px #938F99 solid;
@@ -149,12 +162,10 @@ footer {
         height: 100vh;
         width: 40vw;
         position: fixed;
-        z-index: 999;
         padding: 30px 0;
     }
 
     nav ul {
-        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -168,11 +179,7 @@ footer {
         text-transform: capitalize;
     }
 
-    nav ul li a::after {
-        content: "";
-        width: 20px;
-        height: 2px;
-        background-color: #D0BCFF;
+    nav > i {
+        display: block;
     }
-
 }

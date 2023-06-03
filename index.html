@@ -1,83 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/aa7f330016.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <script src="https://kit.fontawesome.com/aa7f330016.js" crossorigin="anonymous"></script>
-  <title>Document</title>
-</head>
-
-<body>
-  <header>
-    <h2>Hi there!</h2>
-    <div id="hamburger" onclick="expand()">
-      <i class="fa-solid fa-bars"></i>
-    </div>
-      <nav id="nav" >
-        <i class="fa-light fa-square-xmark" style="color: #d0bcff;"></i>
+  <body>
+    <header>
+      <h2>Hi there!</h2>
+      <div id="hamburger" onclick="expand()">
+        <i id="btn" class="fa-solid fa-bars"></i>
+      </div>
+      <nav id="nav">
+        <i class="fa-solid fa-square-xmark" ></i>
         <ul>
-          <li><a  href="#">home</a></li>
-          <li><a  href="#about">about me</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#about">about me</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
       </nav>
-  </header>
-  <main>
-    <div id="content">
-      <article>
-        <h3>post</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos,
-          dolor. Soluta tenetur nisi natus molestiae sint ipsum eius
-          consectetur quos iste nobis! Recusandae, amet harum! Sed recusandae
-          impedit similique, qui odit quia?
-        </p>
-      </article>
-      <article>
-        <h3>another post</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
-          odio error voluptas nulla et. Dolores possimus a placeat veniam
-          nobis eos, atque maiores dignissimos ipsam, accusantium facilis
-          delectus at consequuntur, voluptatibus tenetur! Maiores ducimus, quo
-          assumenda quas iste excepturi esse, rem dolore perspiciatis
-          accusantium, id ex facere! Atque nam fuga aspernatur incidunt et
-          sapiente minima itaque excepturi. Tempore, doloremque veniam alias
-          velit similique tenetur!
-        </p>
-      </article>
-      <article>
-        <h3>just another post</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-          veritatis quasi, reprehenderit perferendis ipsa nesciunt dolores?
-          Cupiditate, odio?
-        </p>
-      </article>
-    </div>
-    <aside>
-      <h3>Muhammad Abdur Rohman</h3>
-      <div id="about">
-        <h5>tentang saya</h5>
-      <ul>
-        <li>pelajar</li>
-        <li>18 thn</li>
-        <li>tinggal di jepara</li>
-      </ul>
-    </div>
-    <h5>temukan saya di</h5>
-      <div id="contact">
-        
-        <a href="https://facebook.com/rasahbokgoleki"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://github.com/MuhammadAbdurRohman1"><i class="fa-brands fa-github"></i></a>
+    </header>
+    <main>
+      <div id="content">
+        <article>
+          <h3>post</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos,
+            dolor. Soluta tenetur nisi natus molestiae sint ipsum eius
+            consectetur quos iste nobis! Recusandae, amet harum! Sed recusandae
+            impedit similique, qui odit quia?
+          </p>
+        </article>
+        <article>
+          <h3>another post</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+            odio error voluptas nulla et. Dolores possimus a placeat veniam
+            nobis eos, atque maiores dignissimos ipsam, accusantium facilis
+            delectus at consequuntur, voluptatibus tenetur! Maiores ducimus, quo
+            assumenda quas iste excepturi esse, rem dolore perspiciatis
+            accusantium, id ex facere! Atque nam fuga aspernatur incidunt et
+            sapiente minima itaque excepturi. Tempore, doloremque veniam alias
+            velit similique tenetur!
+          </p>
+        </article>
+        <article>
+          <h3>just another post</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            veritatis quasi, reprehenderit perferendis ipsa nesciunt dolores?
+            Cupiditate, odio?
+          </p>
+        </article>
       </div>
-    </aside>
-  </main>
-  <footer>copyright muhammad abdur rohman &copy 2023</footer>
-  <script src="script.js"></script>
-</body>
-
+      <aside>
+        <figure>
+          <h3>Muhammad Abdur Rohman</h3>
+          <div id="about">
+            <figcaption>tentang saya</figcaption>
+            <ul>
+              <li>pelajar</li>
+              <li>18 thn</li>
+              <li>tinggal di jepara</li>
+            </ul>
+          </div>
+          <div id="contact">
+          <figcaption>temukan saya di</figcaption>
+            <a href="https://facebook.com/rasahbokgoleki"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://github.com/MuhammadAbdurRohman1"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </figure>
+      </aside>
+    </main>
+    <footer>copyright muhammad abdur rohman &copy 2023</footer>
+    <script src="script.js"></script>
+  </body>
 </html>
